@@ -1,0 +1,74 @@
+:root {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #2c3e50;
+    background-color: #f0f2f5;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .joke-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transition: transform 0.2s;
+  }
+  
+  .joke-card:hover {
+    transform: translateY(-2px);
+  }
+  
+  .joke-setup {
+    font-size: 1.25rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .joke-delivery {
+    font-size: 1.1rem;
+    color: #34495e;
+    font-style: italic;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 2px dashed #e2e8f0;
+  }
+  
+  .new-joke-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .new-joke-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .new-joke-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+  }
+  
+  .loading {
+    opacity: 0.7;
+  }
